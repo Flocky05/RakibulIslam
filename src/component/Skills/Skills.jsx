@@ -10,16 +10,16 @@ import typescript from "../../assets/images/typescript-48.png"
 
 const Skills = () => {
     return (
-        <div className="grid grid-cols-3 p-20 gap-10 justify-items-center">
-            <img src={html} alt="" />
-            <img src={css} alt="" />
-            <img src={bootstrap} alt="" />
-            <img src={tailwindcss} alt="" />
-            <img src={javascript} alt="" />
-            <img src={react} alt="" />
-            <img src={mongodb} alt="" />
-            <img src={firebase} alt="" />
-            <img src={typescript} alt="" />
+        <div className="grid grid-cols-3 p-40 gap-x-5 gap-y-5 justify-items-center">
+            <img className="opacity-70 hover:opacity-100" src={html} alt="" />
+            <img className="opacity-70 hover:opacity-100" src={css} alt="" />
+            <img className="opacity-70 hover:opacity-100" src={bootstrap} alt="" />
+            <img className="opacity-70 hover:opacity-100" src={tailwindcss} alt="" />
+            <img className="opacity-70 hover:opacity-100" src={javascript} alt="" />
+            <img className="opacity-70 hover:opacity-100" src={react} alt="" />
+            <img className="opacity-70 hover:opacity-100" src={mongodb} alt="" />
+            <img className="opacity-70 hover:opacity-100" src={firebase} alt="" />
+            <img className="opacity-70 hover:opacity-100" src={typescript} alt="" />
         </div>
     );
 };
