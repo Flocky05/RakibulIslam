@@ -7,6 +7,9 @@ import react from "../../assets/images/react-native-48.png"
 import mongodb from "../../assets/images/mongodb-48.png"
 import firebase from "../../assets/images/firebase-48.png"
 import typescript from "../../assets/images/typescript-48.png"
+import python from "../../assets/images/python-48.png"
+import next from "../../assets/images/nextjs-48.png"
+import angular from "../../assets/images/angular-48.png"
 
 const Skills = () => {
     return (
@@ -20,6 +23,9 @@ const Skills = () => {
             <img className="opacity-70 hover:opacity-100" src={mongodb} alt="" />
             <img className="opacity-70 hover:opacity-100" src={firebase} alt="" />
             <img className="opacity-70 hover:opacity-100" src={typescript} alt="" />
+            <img className="opacity-70 hover:opacity-100" src={python} alt="" />
+            <img className="opacity-70 hover:opacity-100" src={next} alt="" />
+            <img className="opacity-70 hover:opacity-100" src={angular} alt="" />
         </div>
     );
 };
