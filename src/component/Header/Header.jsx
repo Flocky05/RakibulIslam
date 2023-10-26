@@ -1,5 +1,5 @@
 
-
+import "./Header.css"
 const Header = () => {
     return (
         <div className="flex justify-around p-10 text-white text-xl font-semibold">
