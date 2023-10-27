@@ -1,5 +1,6 @@
 
 import img from "../../assets/images/home.jpeg"
+import Footer from "../Footer/Footer";
 import Profile from "../Profile/Profile";
 const Home = () => {
     const newTab=url=>{
@@ -22,6 +23,7 @@ const Home = () => {
             </div>
             <div>
                 <Profile></Profile>
+                <Footer></Footer>
             </div>
         </div>
     );
