@@ -14,18 +14,18 @@ import angular from "../../assets/images/angular-48.png"
 const Skills = () => {
     return (
         <div className="grid grid-cols-3 p-40 gap-x-5 gap-y-5 justify-items-center">
-            <img className="opacity-70 hover:opacity-100" src={html} alt="" />
-            <img className="opacity-70 hover:opacity-100" src={css} alt="" />
-            <img className="opacity-70 hover:opacity-100" src={bootstrap} alt="" />
-            <img className="opacity-70 hover:opacity-100" src={tailwindcss} alt="" />
-            <img className="opacity-70 hover:opacity-100" src={javascript} alt="" />
-            <img className="opacity-70 hover:opacity-100" src={react} alt="" />
-            <img className="opacity-70 hover:opacity-100" src={mongodb} alt="" />
-            <img className="opacity-70 hover:opacity-100" src={firebase} alt="" />
-            <img className="opacity-70 hover:opacity-100" src={typescript} alt="" />
-            <img className="opacity-70 hover:opacity-100" src={python} alt="" />
-            <img className="opacity-70 hover:opacity-100" src={next} alt="" />
-            <img className="opacity-70 hover:opacity-100" src={angular} alt="" />
+            <img className="opacity-70 hover:opacity-100 hover:shadow-xl shadow-blue-500/40 hover:shadow-orange-500 duration-700 ease-in-out" src={html} alt="" />
+            <img className="opacity-70 hover:opacity-100 hover:shadow-xl shadow-blue-500/40 hover:shadow-blue-500 duration-700 ease-in-out" src={css} alt="" />
+            <img className="opacity-70 hover:opacity-100 hover:shadow-xl shadow-blue-500/40 hover:shadow-indigo-500 duration-700 ease-in-out" src={bootstrap} alt="" />
+            <img className="opacity-70 hover:opacity-100 hover:shadow-xl shadow-blue-500/40 hover:shadow-blue-400 duration-700 ease-in-out" src={tailwindcss} alt="" />
+            <img className="opacity-70 hover:opacity-100 hover:shadow-xl shadow-blue-500/40 hover:shadow-yellow-500 duration-700 ease-in-out" src={javascript} alt="" />
+            <img className="opacity-70 hover:opacity-100 hover:shadow-xl shadow-blue-500/40 hover:shadow-indigo-400 duration-700 ease-in-out" src={react} alt="" />
+            <img className="opacity-70 hover:opacity-100 hover:shadow-xl shadow-blue-500/40 hover:shadow-green-500 duration-700 ease-in-out" src={mongodb} alt="" />
+            <img className="opacity-70 hover:opacity-100 hover:shadow-xl shadow-blue-500/40 hover:shadow-orange-400 duration-700 ease-in-out" src={firebase} alt="" />
+            <img className="opacity-70 hover:opacity-100 hover:shadow-xl shadow-blue-500/40 hover:shadow-blue-500 duration-700 ease-in-out" src={typescript} alt="" />
+            <img className="opacity-70 hover:opacity-100 hover:shadow-xl shadow-blue-500/40 hover:shadow-blue-600 duration-700 ease-in-out" src={python} alt="" />
+            <img className="opacity-70 hover:opacity-100 hover:shadow-xl shadow-blue-500/40 hover:shadow-white duration-700 ease-in-out" src={next} alt="" />
+            <img className="opacity-70 hover:opacity-100 hover:shadow-xl shadow-blue-500/40 hover:shadow-red-500 duration-700 ease-in-out" src={angular} alt="" />
         </div>
     );
 };
