@@ -10,7 +10,7 @@ import { Link } from "react-router-dom"
 const Contract = () => {
     return (
         <div>
-            <h2 className="text-3xl font-bold text-center p-2 lg:p-4 uppercase">Let's Contact</h2>
+            <h2 className="text-3xl font-bold text-center p-2 lg:p-4 uppercase">Let&apos;s Contact</h2>
             <h2 className="text-md text-center p-0 lg:p-2 uppercase">Contact or Write Me</h2>
             <div className="p-8 lg:p-12 text-center text-black">
                 <div>

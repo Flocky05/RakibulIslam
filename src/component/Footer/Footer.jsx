@@ -25,7 +25,8 @@ const Footer = () => {
                         <Link to="https://www.instagram.com/rakibul_01islam/" target="_blank"><img className="invert hover:shadow-lg shadow-gray-400 w-9" src={instagram} alt="" /></Link>
                         <Link to="" target="_blank"><img className="invert hover:shadow-lg shadow-gray-400 w-9" src={discord} alt="" /></Link>
                         <Link to="https://github.com/Flocky05" target="_blank"><img className="invert hover:shadow-xl shadow-gray-400 w-9" src={github} alt="" /></Link>
-                    </div>
+            </div>
+            <img src="" alt="" />
         </div>
     );
 };

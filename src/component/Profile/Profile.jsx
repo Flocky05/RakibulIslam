@@ -6,12 +6,12 @@ const Profile = () => {
     return (
         <div className="p-20 grid grid-cols-1 lg:grid-cols-2 mt-10">
             <div>
-                <img className="shadow-xl shadow-blue-500/40 hover:shadow-gray-400 duration-700 ease-in-out rounded-lg" src={profile} alt="" />
+                <img className="drop-shadow-2xl shadow-blue-500/40 hover:shadow-gray-400 duration-700 ease-in-out rounded-lg" src={profile} alt="" />
             </div>
             <div className="grid grid-cols-1 mt-10 lg:mt-0">
                 <div>
                     <h2 className="text-3xl font-bold">I am Md.Rakibul Islam</h2>
-                    <p className="mt-3">I'm a dedicated MERN Stack Web Developer with a passion for building innovative and user-friendly web applications.Proficient in JavaScript, React, Node.js, Express.js and MongoDB.</p>
+                    <p className="mt-3">I&apos;m a dedicated MERN Stack Web Developer with a passion for building innovative and user-friendly web applications.Proficient in JavaScript, React, Node.js, Express.js and MongoDB.</p>
                 </div>
                 <div className="flex gap-10 text-center">
                     <div className="grid grid-cols-1">
