@@ -1,4 +1,4 @@
-import profile from "../../assets/profile/rakibul2.png"
+import profile from "../../assets/profile/rakibul.jpg"
 import location from "../../assets/profile/location-48.png"
 import phone from "../../assets/profile/phone-64.png"
 import gmail from "../../assets/profile/gmail-48.png"
@@ -6,7 +6,7 @@ const Profile = () => {
     return (
         <div className="p-20 grid grid-cols-1 lg:grid-cols-2 mt-10">
             <div>
-                <img className="drop-shadow-2xl shadow-blue-500/40 hover:shadow-gray-400 duration-700 ease-in-out rounded-lg" src={profile} alt="" />
+                <img className="w-2/4 rounded-lg border-4 border-green-400" src={profile} alt="" />
             </div>
             <div className="grid grid-cols-1 mt-10 lg:mt-0">
                 <div>
