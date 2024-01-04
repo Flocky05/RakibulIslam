@@ -4,14 +4,13 @@ import phone from "../../assets/profile/phone-64.png"
 import gmail from "../../assets/profile/gmail-48.png"
 const Profile = () => {
     return (
-        <div className="p-20 grid grid-cols-1 lg:grid-cols-2 mt-10">
+        <div className="p-2 lg:p-20 grid grid-cols-1 lg:grid-cols-2 mt-10">
             <div>
-                <img className="w-2/4 rounded-lg border-4 border-green-400" src={profile} alt="" />
+                <img className="w-full lg:w-2/4 rounded-lg border-2 lg:border-4 border-blue-400" src={profile} alt="" />
             </div>
             <div className="grid grid-cols-1 mt-10 lg:mt-0">
                 <div>
-                    <h2 className="text-3xl font-bold">I am Md.Rakibul Islam</h2>
-                    <p className="mt-3">I&apos;m a dedicated MERN Stack Web Developer with a passion for building innovative and user-friendly web applications.Proficient in JavaScript, React, Node.js, Express.js and MongoDB.</p>
+                    <p><span className="font-bold text-3xl text-blue-400">"</span> I am a <span className="font-bold text-xl">hardworking</span> and passionate <span className="font-bold text-xl">front-end</span> web Developer.My aim is to utilize my solid academic background, passion for creative problem-solving, and unwavering enthusiasm for innovation to actively contribute to a progressive organization. My primary goal is to not only apply but also further cultivate my skills in software development, data analysis, and technology solutions. My ultimate objective is to drive positive outcomes for the company while advancing my career within the dynamic realm of computer science and engineering <span className="font-bold text-3xl text-blue-400">"</span></p>
                 </div>
                 <div className="flex gap-10 text-center">
                     <div className="grid grid-cols-1">
