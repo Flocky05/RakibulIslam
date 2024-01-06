@@ -15,7 +15,7 @@ import img13 from "../../assets/projects/gpt3/travel-tuki-taki.png"
 
 const Projects = () => {
     return (
-        <div className="absolute grid grid-cols-3 gap-20 m-10 bg-black">
+        <div className="absolute grid grid-cols-3 gap-20 p-10 bg-black">
             <div>
                 <div className="relative overflow-hidden rounded-lg">
                     <img className=" object-cover object-top hover:object-bottom h-80 w-full ease-out duration-1000" src={img1} alt="" />
