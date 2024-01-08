@@ -1,13 +1,16 @@
 
 import img from "../../assets/images/home.jpeg"
+import About from "../About/About";
+import Contract from "../Contract/Contract";
 import Footer from "../Footer/Footer";
 import Profile from "../Profile/Profile";
+import Skills from "../Skills/Skills";
 const Home = () => {
     const newTab=url=>{
         window.open(url);
     }
     return (
-        <div>
+        <div className="bg-blue-950">
                 <div className="lg:flex grid grid-cols-1 justify-around items-center pt-15 h-screen">
                 <div className="p-10 justify-items-center text-center lg:text-start lg:w-2/4">
                     <h2 className="text-2xl font-bold">Hi,This Rakibul Islam</h2>
@@ -21,8 +24,11 @@ const Home = () => {
                     <img className="w-2/4 h-[370px] rounded-full border-4 border-gray-400 hover:shadow-xl shadow-blue-500/40 hover:shadow-gray-400 duration-700 ease-in-out" src={img} alt="" />
                 </div>
             </div>
-            <div>
+            <div className="bg-blue-950">
                 <Profile></Profile>
+                <Skills></Skills>
+                <About></About>
+                <Contract></Contract>
                 <Footer></Footer>
             </div>
         </div>

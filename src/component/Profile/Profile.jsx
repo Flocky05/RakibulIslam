@@ -4,7 +4,7 @@ import phone from "../../assets/profile/phone-64.png"
 import gmail from "../../assets/profile/gmail-48.png"
 const Profile = () => {
     return (
-        <div className="p-2 lg:p-20 grid grid-cols-1 lg:grid-cols-2 mt-10">
+        <div className="p-2 lg:p-20 grid grid-cols-1 lg:grid-cols-2 bg-blue-950">
             <div>
                 <img className="w-full lg:w-2/4 rounded-lg border-2 lg:border-4 border-blue-400" src={profile} alt="" />
             </div>

@@ -9,7 +9,7 @@ import github from "../../assets/contact/github-32.png"
 import { Link } from "react-router-dom"
 const Footer = () => {
     return (
-        <div className="p-20">
+        <div className="p-20 bg-blue-950">
             <hr className="p-2"/>
             <div className="flex justify-between">
                 <h2 className="text-2xl font-bold text-gray-400 hover:text-white">Rakibul Islam</h2>

@@ -22,7 +22,7 @@ const Contract = () => {
                     <textarea className="w-3/5 py-3 rounded-lg my-2 px-4 hover:shadow-lg hover:shadow-gray-400 duration-700 ease-in-out" name="message" id="" cols="30" rows="5" placeholder="Message"></textarea>
                     <br />
                     <button className="bg-gray-500 text-white w-3/5 hover:shadow-lg hover:shadow-gray-400 duration-700 ease-in-out">send</button>
-                    <div className="flex gap-6 items-center justify-center p-4 ">
+                    {/* <div className="flex gap-6 items-center justify-center p-4 ">
                         <Link to="https://www.facebook.com/rakibulislam2527" target="_blank"><img className="invert hover:shadow-lg shadow-gray-400 w-9" src={facebook} alt="" /></Link>
                         <Link to="https://www.linkedin.com/in/rakibulislam2527/" target="_blank"><img className="invert hover:shadow-lg shadow-gray-400 w-9" src={linkedin} alt="" /></Link>
                         <Link to="/"><img className="invert hover:shadow-lg shadow-gray-400 w-9" src={whatsapp} alt="" /></Link>
@@ -30,7 +30,7 @@ const Contract = () => {
                         <Link to="https://www.instagram.com/rakibul_01islam/" target="_blank"><img className="invert hover:shadow-lg shadow-gray-400 w-9" src={instagram} alt="" /></Link>
                         <Link to="" target="_blank"><img className="invert hover:shadow-lg shadow-gray-400 w-9" src={discord} alt="" /></Link>
                         <Link to="https://github.com/Flocky05" target="_blank"><img className="invert hover:shadow-xl shadow-gray-400 w-9" src={github} alt="" /></Link>
-                    </div>
+                    </div> */}
                     </div>
             </div>
         </div>
