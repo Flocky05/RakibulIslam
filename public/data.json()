@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Elise Head",
+    "gender": "female",
+    "company": "LUDAK",
+    "email": "elisehead@ludak.com",
+    "latitude": -79.656511,
+    "longitude": -135.600882,
+    "img": "https://images.unsplash.com/photo-1682688759350-050208b1211c?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Reed Harper",
+    "gender": "male",
+    "company": "ZAPHIRE",
+    "email": "reedharper@zaphire.com",
+    "latitude": 53.984248,
+    "longitude": 160.652717,
+    "img": "https://images.unsplash.com/photo-1682688759350-050208b1211c?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Fletcher Luna",
+    "gender": "male",
+    "company": "COGENTRY",
+    "email": "fletcherluna@cogentry.com",
+    "latitude": 77.025314,
+    "longitude": -134.289448,
+    "img": "https://images.unsplash.com/photo-1682688759350-050208b1211c?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Lancaster Coffey",
+    "gender": "male",
+    "company": "QIMONK",
+    "email": "lancastercoffey@qimonk.com",
+    "latitude": -32.361739,
+    "longitude": -76.04746,
+    "img": "https://images.unsplash.com/photo-1682688759350-050208b1211c?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Leticia Gregory",
+    "gender": "female",
+    "company": "FISHLAND",
+    "email": "leticiagregory@fishland.com",
+    "latitude": 62.221348,
+    "longitude": -28.322376,
+    "img": "https://images.unsplash.com/photo-1682688759350-050208b1211c?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Hines Parrish",
+    "gender": "male",
+    "company": "MANGELICA",
+    "email": "hinesparrish@mangelica.com",
+    "latitude": -51.812841,
+    "longitude": -80.726444,
+    "img": "https://images.unsplash.com/photo-1682688759350-050208b1211c?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Monique Fleming",
+    "gender": "female",
+    "company": "RUGSTARS",
+    "email": "moniquefleming@rugstars.com",
+    "latitude": 80.175795,
+    "longitude": -134.238909,
+    "img": "https://images.unsplash.com/photo-1682688759350-050208b1211c?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]

@@ -11,7 +11,7 @@ import img11 from "../../assets/projects/gpt3/rohan-television.png"
 import img12 from "../../assets/projects/gpt3/tea-house.png"
 import img13 from "../../assets/projects/gpt3/travel-tuki-taki.png"
 
-// const images=[img1,img2,img3,img4,img5,img6,img7,img8,img10,img11,img12,img13];
+ const images=[img1,img2,img3,img4,img5,img6,img7,img8,img10,img11,img12,img13];
 
 const Projects = () => {
     return (
