@@ -13,7 +13,11 @@ import angular from "../../assets/images/angular-48.png"
 
 const Skills = () => {
     return (
-        <div className="grid grid-cols-3 p-40 gap-x-5 gap-y-5 justify-items-center">
+        <div>
+            <div>
+                <h2 className="text-4xl text-center p-4 font-bold">Skills Section</h2>
+            </div>
+            <div className="grid grid-cols-3 p-20 gap-x-5 gap-y-5 justify-items-center">
             <img className="opacity-70 hover:opacity-100 hover:shadow-xl shadow-blue-500/40 hover:shadow-orange-500 duration-700 ease-in-out" src={html} alt="" />
             <img className="opacity-70 hover:opacity-100 hover:shadow-xl shadow-blue-500/40 hover:shadow-blue-500 duration-700 ease-in-out" src={css} alt="" />
             <img className="opacity-70 hover:opacity-100 hover:shadow-xl shadow-blue-500/40 hover:shadow-indigo-500 duration-700 ease-in-out" src={bootstrap} alt="" />
@@ -26,6 +30,7 @@ const Skills = () => {
             <img className="opacity-70 hover:opacity-100 hover:shadow-xl shadow-blue-500/40 hover:shadow-blue-600 duration-700 ease-in-out" src={python} alt="" />
             <img className="opacity-70 hover:opacity-100 hover:shadow-xl shadow-blue-500/40 hover:shadow-white duration-700 ease-in-out" src={next} alt="" />
             <img className="opacity-70 hover:opacity-100 hover:shadow-xl shadow-blue-500/40 hover:shadow-red-500 duration-700 ease-in-out" src={angular} alt="" />
+        </div>
         </div>
     );
 };

@@ -2,7 +2,7 @@
 const Contract = () => {
     return (
         <div>
-            <div className="pt-14 lg:p-12 text-center text-black">
+            <div className="mt-16 lg:p-12 text-center">
                 <h2 className="text-3xl font-bold text-center p-2 lg:p-4 uppercase">Let&apos;s Contact</h2>
                 <h2 className="text-md text-center p-0 lg:p-2 uppercase">Contact or Write Me</h2>
                 <div>

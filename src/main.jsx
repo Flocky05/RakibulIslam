@@ -11,8 +11,6 @@ import Skills from './component/Skills/Skills';
 import Projects from './component/Pojects/Projects';
 import Contract from './component/Contract/Contract';
 import Main from './component/Main/Main';
-import Resume from './component/Resume/Resume';
-
 
 const router = createBrowserRouter([
   {
@@ -25,9 +23,6 @@ const router = createBrowserRouter([
       },{
         path:"/about",
         element:<About></About>
-      },{
-        path:"/resume",
-        element:<Resume></Resume>
       },{
         path:"/skills",
         element:<Skills></Skills>
