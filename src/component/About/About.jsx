@@ -20,10 +20,12 @@ import img11 from "../../assets/projects/gpt3/rohan-television.png"
 import img12 from "../../assets/projects/gpt3/tea-house.png"
 import img13 from "../../assets/projects/gpt3/travel-tuki-taki.png"
 
- const images=[img1,img2,img3,img4,img5,img6,img7,img8,img10,img11,img12,img13];
 const About = () => {
     return (
-        <div className='h-60 relative'>
+        <div className='h-96 relative '>
+          <div>
+              <h2 className='text-4xl text-center p-4 font-bold'>Projects</h2>
+          </div>
             <Swiper
         effect={'coverflow'}
         grabCursor={true}
@@ -40,10 +42,107 @@ const About = () => {
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
       >
-        {images.map(image=><SwiperSlide key={image}>
-          <img className=" object-cover object-top hover:object-bottom h-80 w-full ease-out duration-1000" src={image}/>
-        </SwiperSlide>)}
-        
+        <SwiperSlide>
+            <div className='bg-gray-300 rounded-lg p-3'>
+                <div className="relative overflow-hidden rounded-lg">
+                    <img className=" object-cover object-top hover:object-bottom h-60 w-full ease-out duration-1000" src={img1} alt="" />
+                </div>
+                <div className='flex flex-cols-2 gap-5'>
+                  <button className="bg-red-600 px-4 py-1 mt-3 rounded-md">Live Site</button>
+                  <button className="bg-green-600 px-4 py-1 mt-3 rounded-md">Github</button>
+                </div>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div>
+                <div className="relative overflow-hidden rounded-lg">
+                    <img className=" object-cover object-top hover:object-bottom h-80 w-full ease-out duration-1000" src={img2} alt="" />
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe nam, repellendus voluptatem optio voluptates facilis quam natus dolorem quis esse.</p>
+                <button className="bg-blue-600 px-4 py-2 rounded-md">More</button>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div>
+                <div className="relative overflow-hidden rounded-lg">
+                    <img className=" object-cover object-top hover:object-bottom h-80 w-full ease-out duration-1000" src={img3} alt="" />
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe nam, repellendus voluptatem optio voluptates facilis quam natus dolorem quis esse.</p>
+                <button className="bg-blue-600 px-4 py-2 rounded-md">More</button>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div>
+                <div className="relative overflow-hidden rounded-lg">
+                    <img className=" object-cover object-top hover:object-bottom h-80 w-full ease-out duration-1000" src={img4} alt="" />
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe nam, repellendus voluptatem optio voluptates facilis quam natus dolorem quis esse.</p>
+                <button className="bg-blue-600 px-4 py-2 rounded-md">More</button>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div>
+                <div className="relative overflow-hidden rounded-lg">
+                    <img className=" object-cover object-top hover:object-bottom h-80 w-full ease-out duration-1000" src={img5} alt="" />
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe nam, repellendus voluptatem optio voluptates facilis quam natus dolorem quis esse.</p>
+                <button className="bg-blue-600 px-4 py-2 rounded-md">More</button>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div>
+                <div className="relative overflow-hidden rounded-lg">
+                    <img className=" object-cover object-top hover:object-bottom h-80 w-full ease-out duration-1000" src={img6} alt="" />
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe nam, repellendus voluptatem optio voluptates facilis quam natus dolorem quis esse.</p>
+                <button className="bg-blue-600 px-4 py-2 rounded-md">More</button>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div>
+                <div className="relative overflow-hidden rounded-lg">
+                    <img className=" object-cover object-top hover:object-bottom h-80 w-full ease-out duration-1000" src={img7} alt="" />
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe nam, repellendus voluptatem optio voluptates facilis quam natus dolorem quis esse.</p>
+                <button className="bg-blue-600 px-4 py-2 rounded-md">More</button>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div>
+                <div className="relative overflow-hidden rounded-lg">
+                    <img className=" object-cover object-top hover:object-bottom h-80 w-full ease-out duration-1000" src={img8} alt="" />
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe nam, repellendus voluptatem optio voluptates facilis quam natus dolorem quis esse.</p>
+                <button className="bg-blue-600 px-4 py-2 rounded-md">More</button>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div>
+                <div className="relative overflow-hidden rounded-lg">
+                    <img className=" object-cover object-top hover:object-bottom h-80 w-full ease-out duration-1000" src={img10} alt="" />
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe nam, repellendus voluptatem optio voluptates facilis quam natus dolorem quis esse.</p>
+                <button className="bg-blue-600 px-4 py-2 rounded-md">More</button>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div>
+                <div className="relative overflow-hidden rounded-lg">
+                    <img className=" object-cover object-top hover:object-bottom h-80 w-full ease-out duration-1000" src={img12} alt="" />
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe nam, repellendus voluptatem optio voluptates facilis quam natus dolorem quis esse.</p>
+                <button className="bg-blue-600 px-4 py-2 rounded-md">More</button>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div>
+                <div className="relative overflow-hidden rounded-lg">
+                    <img className=" object-cover object-top hover:object-bottom h-80 w-full ease-out duration-1000" src={img13} alt="" />
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe nam, repellendus voluptatem optio voluptates facilis quam natus dolorem quis esse.</p>
+                <button className="bg-blue-600 px-4 py-2 rounded-md">More</button>
+            </div>
+        </SwiperSlide>
       </Swiper>
         </div>
     );
